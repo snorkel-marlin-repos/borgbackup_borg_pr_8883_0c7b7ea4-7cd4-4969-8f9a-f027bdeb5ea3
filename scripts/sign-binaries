@@ -1,0 +1,20 @@
+#!/bin/bash
+
+D=$1
+
+if [ "$D" = "" ]; then
+    echo "Usage: sign-binaries 201912312359"
+    exit
+fi
+
+if [ "$QUBES_GPG_DOMAIN" = "" ]; then
+    GPG=gpg
+else
+    GPG=qubes-gpg-client-wrapper
+fi
+
+for file in dist/borg-*; do
+    $GPG --local-user "Thomas Waldmann" --armor --detach-sign --output "$file.asc" "$file"
+done
+
+touch -t "$D" dist/*

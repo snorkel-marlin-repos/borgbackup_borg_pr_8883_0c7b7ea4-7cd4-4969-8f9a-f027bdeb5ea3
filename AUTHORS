@@ -1,0 +1,46 @@
+E-mail addresses listed here are not intended for support, please see
+the `support section`_ instead.
+
+.. _support section: https://borgbackup.readthedocs.io/en/stable/support.html
+
+Borg authors ("The Borg Collective")
+------------------------------------
+
+- Thomas Waldmann <tw@waldmann-edv.de>
+- Radek Podgorny <radek@podgorny.cz>
+- Yuri D'Elia
+- Michael Hanselmann <public@hansmi.ch>
+- Teemu Toivanen <public@profnetti.fi>
+- Marian Beermann <public@enkore.de>
+- Martin Hostettler <textshell@uchuujin.de>
+- Daniel Reichelt <hacking@nachtgeist.net>
+- Lauri Niskanen <ape@ape3000.com>
+- Abdel-Rahman A. (Abogical)
+- Gu1nness <guinness@crans.org>
+- Andrey Andreyevich Bienkowski <hexagon-recursion@posteo.net>
+
+Retired
+```````
+
+- Antoine Beaupré <anarcat@debian.org>
+
+Borg is a fork of Attic.
+
+Attic authors
+-------------
+
+Attic is written and maintained by Jonas Borgström and various contributors:
+
+Attic Development Lead
+``````````````````````
+- Jonas Borgström <jonas@borgstrom.se>
+
+Attic Patches and Suggestions
+`````````````````````````````
+- Brian Johnson
+- Cyril Roussillon
+- Dan Christensen
+- Jeremy Maitin-Shepard
+- Johann Klähn
+- Petros Moisiadis
+- Thomas Waldmann
